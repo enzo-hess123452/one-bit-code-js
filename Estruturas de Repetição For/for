@@ -1,0 +1,15 @@
+// O for também serve pra realizar repetições, porem com uma estrutura diferente do while e do while.
+
+// Ele existe pra abreviar o código em casos que seguem essa estrutura especifica.
+    // inicialização: expressão executada antes de tudo.
+    // condição: condição semelhante ao while, é testada antes da execução do bloco de repetição.
+    // Finalização: expressão executada após o bloco de repetição 
+
+// PARA inicialização; condição; finalização FAÇA alguma coisa.
+
+// Um exemplo comum e o uso do for é quando queremos iternar um numero fixo de vezes, como uma vez para cada letra de uma palavra, ou uma vez para cada item de uma lista.
+
+// sintaxe:
+    for(inicialização; condição; finalização) {
+        //
+    }

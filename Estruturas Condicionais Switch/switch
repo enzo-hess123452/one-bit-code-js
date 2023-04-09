@@ -1,0 +1,26 @@
+Permite criar blocos condicionais como o If, porem com um estrutura que avalia uma expressão e 
+testa o resultado contra vários casos, executando os casos correspondentes
+
+É possível definir um, caso padra, que sempre é executado.
+
+Também é possível parar a execução apos algum casos.
+
+switch: expressão
+CASO a: faça uma coisa 
+CASO B: faça outa coisa E PARE
+CASO c: faça mais outra coisa
+POR PADRÃO: faça algo sempre
+
+sintaxe:
+
+switch (expressão) {
+    case "a":
+      //...
+    case "b":
+      //...
+        break
+    case "c":
+      //...
+    default:
+      //...
+}
